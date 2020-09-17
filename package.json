@@ -10,6 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "mobx": "^5.15.6",
+    "mobx-react-lite": "^2.2.1",
     "react": "16.13.1",
     "react-native": "0.63.2",
     "react-native-navigation": "^7.0.0"
@@ -22,6 +24,8 @@
     "eslint": "^7.9.0",
     "jest": "^26.4.2",
     "metro-react-native-babel-preset": "^0.63.0",
+    "mobx-flipper": "^1.1.1",
+    "react-native-flipper": "^0.57.0",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
