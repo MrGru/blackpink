@@ -1,0 +1,23 @@
+name: Github Actions
+
+on: 
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Envinfo
+        run: npx envinfo
+      - name: Install
+        run: yarn install
+      - name: Lint check
+        run: npm run lint
+      - name: Build check
+        run: cd android && chmod +x gradlew && ./gradlew assembleRelease
