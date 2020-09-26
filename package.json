@@ -10,10 +10,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "axios": "^0.20.0",
+    "i18next": "^19.7.0",
     "mobx": "^5.15.6",
     "mobx-react-lite": "^2.2.1",
     "react": "16.13.1",
+    "react-i18next": "^11.7.3",
     "react-native": "0.63.2",
+    "react-native-device-info": "^6.0.4",
     "react-native-navigation": "^7.0.0"
   },
   "devDependencies": {

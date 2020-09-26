@@ -11,17 +11,4 @@ const HomeScreen = observer((props) => {
   );
 });
 
-HomeScreen.options = () => {
-  return {
-    topBar: {
-      title: {
-        text: 'Home',
-      },
-    },
-    bottomTab: {
-      text: 'Home',
-    },
-  };
-};
-
 export default HomeScreen;

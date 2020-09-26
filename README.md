@@ -2,6 +2,8 @@
 ### 1. Feature
 - React native navigation
 - Mobx
+- i18next
+- axios
 
 ## Mobile development process
 ### 1. Init project

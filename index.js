@@ -1,6 +1,7 @@
-import './src/screen';
+import 'screens';
 
 import {Navigation} from 'react-native-navigation';
+import i18n from 'locales';
 
 const mainRoot = {
   root: {
@@ -18,11 +19,11 @@ const mainRoot = {
             options: {
               topBar: {
                 title: {
-                  text: 'Home',
+                  text: i18n.t('Home'),
                 },
               },
               bottomTab: {
-                text: 'Home',
+                text: i18n.t('Home'),
               },
             },
           },
@@ -39,11 +40,11 @@ const mainRoot = {
             options: {
               topBar: {
                 title: {
-                  text: 'Feature',
+                  text: i18n.t('Feature'),
                 },
               },
               bottomTab: {
-                text: 'Feature',
+                text: i18n.t('Feature'),
               },
             },
           },
@@ -60,11 +61,11 @@ const mainRoot = {
             options: {
               topBar: {
                 title: {
-                  text: 'Counter',
+                  text: i18n.t('Counter'),
                 },
               },
               bottomTab: {
-                text: 'Counter',
+                text: i18n.t('Counter'),
               },
             },
           },
@@ -81,11 +82,11 @@ const mainRoot = {
             options: {
               topBar: {
                 title: {
-                  text: 'Profile',
+                  text: i18n.t('Profile'),
                 },
               },
               bottomTab: {
-                text: 'Profile',
+                text: i18n.t('Profile'),
               },
             },
           },
