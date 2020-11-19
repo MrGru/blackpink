@@ -9,6 +9,7 @@ Dev:
 - husky
 - eslint
 - prettier
+- semantic-release
 - commmitlint
 
 ```
