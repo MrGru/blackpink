@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "android:build": "cd android && ./gradlew clean && ./gradlew assembleRelease",
+    "release": "semantic-release",
+    "postversion": "react-native-version --never-amend",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
@@ -23,16 +26,58 @@
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/runtime": "^7.11.2",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@semantic-release/git": "^9.0.0",
     "babel-jest": "^26.3.0",
     "eslint": "^7.9.0",
+    "husky": "^4.3.0",
     "jest": "^26.4.2",
+    "lint-staged": "^10.5.1",
     "metro-react-native-babel-preset": "^0.63.0",
     "mobx-flipper": "^1.1.1",
     "react-native-flipper": "^0.57.0",
-    "react-test-renderer": "16.13.1"
+    "react-native-version": "^4.0.0",
+    "react-test-renderer": "16.13.1",
+    "semantic-release": "^17.2.3"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "./src/*.{js,jsx,ts,tsx}": [
+      "npx prettier --write",
+      "eslint src/*.js --fix-dry-run"
+    ]
+  },
+  "release": {
+    "branch": "master",
+    "npmPublish": false,
+    "ci": false,
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "ios/blackpink/Info.plist",
+            "ios/blackpink.xcodeproj/project.pbxproj",
+            "android/app/build.gradle",
+            "package.json"
+          ],
+          "message": "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
+        }
+      ],
+      "@semantic-release/github"
+    ]
   }
 }

@@ -5,6 +5,33 @@
 - i18next
 - axios
 
+Dev: 
+- husky
+- eslint
+- prettier
+- commmitlint
+
+```
+type(scope?): subject  #scope is optional; multiple scopes are supported (current delimiter options: "/", "\" and ",")
+
+- build
+- ci
+- chore
+- docs
+- feat
+- fix
+- perf
+- refactor
+- revert
+- style
+- test
+
+Example:
+chore: run tests on travis ci
+fix(server): send cors headers
+feat(blog): add comment section
+
+```
 ## Mobile development process
 ### 1. Init project
 #### Input Requirement:
