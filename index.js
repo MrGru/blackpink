@@ -126,5 +126,9 @@ Navigation.setDefaultOptions({
   },
 });
 Navigation.events().registerAppLaunchedListener(async () => {
-  Navigation.setRoot(mainRoot);
+  Navigation.setRoot(isLoggedIn() ? mainRoot : loginRoot);
 });
+
+const isLoggedIn = () => {
+  return false;
+};

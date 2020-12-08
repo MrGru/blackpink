@@ -5,7 +5,7 @@ import {observer} from 'mobx-react-lite';
 
 const LoginScreen = observer((props) => {
   return (
-    <View>
+    <View testID="LoginScreen">
       <Text>Login</Text>
     </View>
   );

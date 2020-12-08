@@ -5,12 +5,19 @@
   "scripts": {
     "android": "react-native run-android",
     "android:build": "cd android && ./gradlew clean && ./gradlew assembleRelease",
+    "android:signing_report": "cd android && ./gradlew signingReport",
     "release": "semantic-release",
     "postversion": "react-native-version --never-amend",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "npm:install": "npm i",
+    "pod:install": "npx pod-install",
+    "e2e:test_ios": "detox test -c ios",
+    "e2e:test_android": "detox test -c android",
+    "e2e:build_android": "detox build -c android",
+    "e2e:build_ios": "detox build -c ios"
   },
   "dependencies": {
     "axios": "^0.20.0",
@@ -31,9 +38,12 @@
     "@react-native-community/eslint-config": "^2.0.0",
     "@semantic-release/git": "^9.0.0",
     "babel-jest": "^26.3.0",
+    "detox": "^17.14.1",
     "eslint": "^7.9.0",
+    "eslint-plugin-detox": "^1.0.0",
     "husky": "^4.3.0",
     "jest": "^26.4.2",
+    "jest-circus": "^26.6.3",
     "lint-staged": "^10.5.1",
     "metro-react-native-babel-preset": "^0.63.0",
     "mobx-flipper": "^1.1.1",
