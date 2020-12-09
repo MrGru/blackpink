@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 15
 
     env:
-      DEVELOPER_DIR: /Application/Xcode_11.2.app
+      DEVELOPER_DIR: /Applications/Xcode.app
 
     steps:
       - name: Checkout
