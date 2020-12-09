@@ -39,8 +39,7 @@ jobs:
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          yarn config set registry https://registry.npmjs.org
-          yarn install
+          yarn install --frozen-lockfile
 
       - name: Cache Pods
         uses: actions/cache@v1
