@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "npm:install": "npm i",
     "pod:install": "npx pod-install",
-    "e2e:test_ios": "detox test -c ios --cleanup --debug-synchronization 200",
+    "e2e:test_ios": "detox test -c ios",
     "e2e:test_android": "detox test -c android",
     "e2e:build_android": "detox build -c android",
     "e2e:build_ios": "detox build -c ios"
