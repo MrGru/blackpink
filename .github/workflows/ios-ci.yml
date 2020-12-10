@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     runs-on: macos-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
 
     env:
       DEVELOPER_DIR: /Applications/Xcode.app
@@ -39,7 +39,7 @@ jobs:
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          yarn install --frozen-lockfile
+          npm install
 
       - name: Cache Pods
         uses: actions/cache@v1
