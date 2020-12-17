@@ -2,7 +2,7 @@ import {Button, Text, View} from 'react-native';
 
 import React from 'react';
 import {observer} from 'mobx-react-lite';
-import {useStores} from 'stores';
+import {useStores} from '@/stores';
 
 const CounterScreen = observer((props) => {
   const {counterStore} = useStores();

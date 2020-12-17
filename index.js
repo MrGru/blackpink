@@ -1,7 +1,7 @@
-import 'screens';
+import '@/screens';
 
 import {Navigation} from 'react-native-navigation';
-import i18n from 'locales';
+import i18n from '@/locales';
 
 const mainRoot = {
   root: {

@@ -1,3 +1,5 @@
+import * as resources from './resources';
+
 import i18n from 'i18next';
 import {initReactI18next} from 'react-i18next';
 
@@ -14,12 +16,12 @@ i18n
   .use(languageDetector)
   .init({
     resources: {
-      vi: {
-        translation: require('./vi.json'),
-      },
-      en: {
-        translation: require('./en.json'),
-      },
+      ...Object.entries(resources).reduce((acc, [key, value]) => ({
+        ...acc,
+        [key]: {
+          translation: value,
+        },
+      })),
     },
     fallbackLng: 'vi',
     debug: true,

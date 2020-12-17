@@ -2,13 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "*": ["src/*"],
-      "src": ["src/*"],
-      "locales": ["src/locales/*"],
-      "screens": ["src/screens/*"],
-      "navigations": ["src/navigations/*"],
-      "services": ["src/services/*"],
-      "stores": ["src/stores/*"]
+      "@/*": ["./src/*"]
     }
   }
 }
