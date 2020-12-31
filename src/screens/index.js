@@ -1,12 +1,6 @@
-import CounterScreen from './CounterScreen';
-import FeatureScreen from './FeatureScreen';
-import HomeScreen from './HomeScreen';
-import LoginScreen from './LoginScreen';
-import {Navigation} from 'react-native-navigation';
-import ProfileScreen from './ProfileScreen';
-
-Navigation.registerComponent('Home', () => HomeScreen);
-Navigation.registerComponent('Login', () => LoginScreen);
-Navigation.registerComponent('Profile', () => ProfileScreen);
-Navigation.registerComponent('Feature', () => FeatureScreen);
-Navigation.registerComponent('Counter', () => CounterScreen);
+export {default as HomeScreen} from './HomeScreen';
+export {default as CounterScreen} from './CounterScreen';
+export {default as FeatureScreen} from './FeatureScreen';
+export {default as LoginScreen} from './LoginScreen';
+export {default as ProfileScreen} from './ProfileScreen';
+export {default as StartupScreen} from './startup';
