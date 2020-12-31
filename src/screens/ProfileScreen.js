@@ -1,16 +1,16 @@
 import {Text, View} from 'react-native';
+import {useRecoilState, useResetRecoilState} from 'recoil';
 
 import React from 'react';
-import {observer} from 'mobx-react-lite';
-import {useStores} from '@/stores';
+import atomIncrease from '@/atoms/atom';
 
-const ProfileScreen = observer((props) => {
-  const {counterStore} = useStores();
+const ProfileScreen = (props) => {
+  const [item, setItem] = useRecoilState(atomIncrease);
   return (
     <View>
-      <Text>Profile with counter: {counterStore.count}</Text>
+      <Text>Profile with counter: {item}</Text>
     </View>
   );
-});
+};
 
 export default ProfileScreen;

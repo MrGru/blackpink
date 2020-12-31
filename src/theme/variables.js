@@ -10,7 +10,7 @@ export const Colors = {
   error: '#dc3545',
 };
 
-export const NavigatioinColors = {
+export const NavigationColors = {
   primary: Colors.primary,
 };
 
