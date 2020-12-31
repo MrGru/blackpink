@@ -5,10 +5,11 @@
 
 ### 1. Feature
 
-- React native navigation
-- Mobx
+- React native navigation => Change to React navigation
+- Mobx => Change to Recoil
 - i18next
 - axios
+- theme
 
 Development:
 -> Static test:
@@ -26,6 +27,8 @@ Development:
 Release:
 
 - semantic-release
+  - export GH_TOKEN=<Your GH_TOKEN setup from developer and Secrets>
+  - run: npm run release
 
 Example commit message type:
 
