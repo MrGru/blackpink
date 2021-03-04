@@ -1,5 +1,6 @@
 import {Text, TouchableOpacity, View} from 'react-native';
 import {useRecoilState, useResetRecoilState} from 'recoil';
+import Config from 'react-native-config';
 
 import React from 'react';
 import atomIncrease from '@/atoms/atom';
@@ -13,6 +14,7 @@ const LoginScreen = ({navigation}) => {
     <View
       testID="LoginScreen"
       style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <Text>Environment: {Config.ENVIRONMENT}</Text>
       <Text>Login {item}</Text>
       <TouchableOpacity
         onPress={() => {

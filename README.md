@@ -10,8 +10,9 @@
 - i18next
 - axios
 - theme
+- config multi-environment: development, staging, production
 
-Development:
+CI:
 -> Static test:
 
 - husky
@@ -24,7 +25,9 @@ Development:
 - jest
 - detox
 
-Release:
+Development: env.development
+Staging: env.staging
+Release/Production: env.production
 
 - semantic-release
   - export GH_TOKEN=<Your GH_TOKEN setup from developer and Secrets>

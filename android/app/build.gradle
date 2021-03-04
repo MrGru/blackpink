@@ -1,4 +1,13 @@
+ project.ext.envConfigFiles = [
+  debug: ".env.development",
+  development: ".env.development",
+  staging: ".env.staging",
+  release: ".env.production",
+]
+
 apply plugin: "com.android.application"
+
+apply from: project(":react-native-config").projectDir.getPath() + "/dotenv.gradle"
 
 import com.android.build.OutputFile
 
@@ -79,6 +88,8 @@ import com.android.build.OutputFile
 
 project.ext.react = [
     enableHermes: false,  // clean and rebuild if changing
+    devDisabledInStaging: true,
+    bundleInStaging: true,
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -137,6 +148,7 @@ android {
         multiDexEnabled true
         testBuildType System.getProperty('testBuildType', 'debug')  // This will later be used to control the test apk build type
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        resValue "string", "build_config_package", "com.blackpink"
     }
     splits {
         abi {
@@ -157,6 +169,7 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            matchingFallbacks = ['debug', 'release']
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
@@ -164,6 +177,14 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+        development {
+            initWith debug
+            applicationIdSuffix ".development"
+        }
+        staging {
+            initWith debug
+            applicationIdSuffix ".staging"
         }
     }
 
