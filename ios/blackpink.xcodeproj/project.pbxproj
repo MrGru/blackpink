@@ -12,13 +12,24 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1A37D9F071BC6C44CAC5A5AE /* libPods-blackpink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6A175D2EF3C65206483E14 /* libPods-blackpink.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* blackpinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* blackpinkTests.m */; };
+		31191B2BFC6CC951FEF1B8A8 /* libPods-App-blackpink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F628D21C7F907459A87B2E4 /* libPods-App-blackpink.a */; };
+		43EC95243CA7C4EEB17F0DE4 /* libPods-App-blackpinkDevelopment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2EA572604168E6D25DEC52 /* libPods-App-blackpinkDevelopment.a */; };
+		74FD012425F539DE00379145 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74FD012325F539DE00379145 /* Info.plist */; };
+		74FD012E25F539ED00379145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		74FD012F25F539ED00379145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		74FD013125F539ED00379145 /* libPods-App-blackpink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F628D21C7F907459A87B2E4 /* libPods-App-blackpink.a */; };
+		74FD013325F539ED00379145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		74FD013425F539ED00379145 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		74FDFED025F521B700379145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		74FDFED125F521B700379145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		74FDFED525F521B700379145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		74FDFED625F521B700379145 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C804E18A19E3EA5F17A3B116 /* libPods-blackpink-blackpinkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A50CC2340AFDAEE05175A3 /* libPods-blackpink-blackpinkTests.a */; };
+		A078D7D458231F6742A74549 /* libPods-App-blackpink-blackpinkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5014205927FD27DE742D16 /* libPods-App-blackpink-blackpinkTests.a */; };
 		CA004377E45D58B9C0312F7B /* libPods-blackpink-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AF869A9CF5CA78C8F119C0 /* libPods-blackpink-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -44,29 +55,42 @@
 		00E356EE1AD99517003FC87E /* blackpinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blackpinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* blackpinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blackpinkTests.m; sourceTree = "<group>"; };
-		0D6A175D2EF3C65206483E14 /* libPods-blackpink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blackpink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* blackpink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blackpink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = blackpink/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = blackpink/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = blackpink/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = blackpink/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = blackpink/main.m; sourceTree = "<group>"; };
+		19F11DFC550BF4264171B2CA /* Pods-App-blackpinkDevelopment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-blackpinkDevelopment.release.xcconfig"; path = "Target Support Files/Pods-App-blackpinkDevelopment/Pods-App-blackpinkDevelopment.release.xcconfig"; sourceTree = "<group>"; };
+		1A5014205927FD27DE742D16 /* libPods-App-blackpink-blackpinkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-blackpink-blackpinkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* blackpink-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blackpink-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* blackpink-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blackpink-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5395C98137AA7804AE4D4697 /* Pods-App-blackpink-blackpinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-blackpink-blackpinkTests.debug.xcconfig"; path = "Target Support Files/Pods-App-blackpink-blackpinkTests/Pods-App-blackpink-blackpinkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		57DBC141644F1121E26F9566 /* Pods-blackpink-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blackpink-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-blackpink-tvOSTests/Pods-blackpink-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CA598AA246C1EB5FD9AE8C4 /* Pods-blackpink-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blackpink-tvOS.release.xcconfig"; path = "Target Support Files/Pods-blackpink-tvOS/Pods-blackpink-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		6F2D8977C8F154C1004798F3 /* Pods-blackpink-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blackpink-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-blackpink-tvOSTests/Pods-blackpink-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		7241C0A042951104E0EB3E10 /* Pods-blackpink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blackpink.debug.xcconfig"; path = "Target Support Files/Pods-blackpink/Pods-blackpink.debug.xcconfig"; sourceTree = "<group>"; };
+		74FD012325F539DE00379145 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74FD013B25F539ED00379145 /* blackpinkStaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blackpinkStaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FD013C25F539ED00379145 /* blackpink copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "blackpink copy-Info.plist"; path = "/Users/gru/Documents/project/blackpink/ios/blackpink copy-Info.plist"; sourceTree = "<absolute>"; };
+		74FDFEDC25F521B700379145 /* blackpinkDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blackpinkDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FDFEDD25F521B800379145 /* blackpink copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "blackpink copy-Info.plist"; path = "/Users/gru/Documents/project/blackpink/ios/blackpink copy-Info.plist"; sourceTree = "<absolute>"; };
+		74FDFEE825F523A600379145 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		770E66F4FFEDC67E4C6089EA /* Pods-blackpink-blackpinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blackpink-blackpinkTests.release.xcconfig"; path = "Target Support Files/Pods-blackpink-blackpinkTests/Pods-blackpink-blackpinkTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = blackpink/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AF869A9CF5CA78C8F119C0 /* libPods-blackpink-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blackpink-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F628D21C7F907459A87B2E4 /* libPods-App-blackpink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-blackpink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		964C794EAC386888B162145E /* Pods-blackpink-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blackpink-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-blackpink-tvOS/Pods-blackpink-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A0451305E41EBAF67DA0ED87 /* Pods-blackpink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blackpink.release.xcconfig"; path = "Target Support Files/Pods-blackpink/Pods-blackpink.release.xcconfig"; sourceTree = "<group>"; };
 		A163C61753DDF50010481CCC /* libPods-blackpink-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blackpink-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4FF05A2E726B2636369FD9 /* Pods-App-blackpinkDevelopment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-blackpinkDevelopment.debug.xcconfig"; path = "Target Support Files/Pods-App-blackpinkDevelopment/Pods-App-blackpinkDevelopment.debug.xcconfig"; sourceTree = "<group>"; };
 		B64C7CA8F92634A21ADF3069 /* Pods-blackpink-blackpinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blackpink-blackpinkTests.debug.xcconfig"; path = "Target Support Files/Pods-blackpink-blackpinkTests/Pods-blackpink-blackpinkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6A50CC2340AFDAEE05175A3 /* libPods-blackpink-blackpinkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blackpink-blackpinkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7355441579A6F414A01B07 /* Pods-App-blackpink-blackpinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-blackpink-blackpinkTests.release.xcconfig"; path = "Target Support Files/Pods-App-blackpink-blackpinkTests/Pods-App-blackpink-blackpinkTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE2EA572604168E6D25DEC52 /* libPods-App-blackpinkDevelopment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-blackpinkDevelopment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5863B1526252A5889F4BDF5 /* Pods-App-blackpink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-blackpink.release.xcconfig"; path = "Target Support Files/Pods-App-blackpink/Pods-App-blackpink.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FF2E056D682E0905F568C099 /* Pods-App-blackpink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-blackpink.debug.xcconfig"; path = "Target Support Files/Pods-App-blackpink/Pods-App-blackpink.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C804E18A19E3EA5F17A3B116 /* libPods-blackpink-blackpinkTests.a in Frameworks */,
+				A078D7D458231F6742A74549 /* libPods-App-blackpink-blackpinkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A37D9F071BC6C44CAC5A5AE /* libPods-blackpink.a in Frameworks */,
+				31191B2BFC6CC951FEF1B8A8 /* libPods-App-blackpink.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +123,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				052E43D4C4A91F8D52C09C65 /* libPods-blackpink-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74FD013025F539ED00379145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FD013125F539ED00379145 /* libPods-App-blackpink.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74FDFED225F521B700379145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EC95243CA7C4EEB17F0DE4 /* libPods-App-blackpinkDevelopment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,11 +165,11 @@
 		13B07FAE1A68108700A75B9A /* blackpink */ = {
 			isa = PBXGroup;
 			children = (
+				13B07FB61A68108700A75B9A /* Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -141,12 +181,29 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				0D6A175D2EF3C65206483E14 /* libPods-blackpink.a */,
-				E6A50CC2340AFDAEE05175A3 /* libPods-blackpink-blackpinkTests.a */,
 				88AF869A9CF5CA78C8F119C0 /* libPods-blackpink-tvOS.a */,
 				A163C61753DDF50010481CCC /* libPods-blackpink-tvOSTests.a */,
+				8F628D21C7F907459A87B2E4 /* libPods-App-blackpink.a */,
+				1A5014205927FD27DE742D16 /* libPods-App-blackpink-blackpinkTests.a */,
+				DE2EA572604168E6D25DEC52 /* libPods-App-blackpinkDevelopment.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74FD012225F539B000379145 /* blackpinkStaging */ = {
+			isa = PBXGroup;
+			children = (
+				74FD012325F539DE00379145 /* Info.plist */,
+			);
+			path = blackpinkStaging;
+			sourceTree = "<group>";
+		};
+		74FDFECB25F5217200379145 /* blackpinkDevelopment */ = {
+			isa = PBXGroup;
+			children = (
+				74FDFEE825F523A600379145 /* Info.plist */,
+			);
+			path = blackpinkDevelopment;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -159,12 +216,16 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				74FD012225F539B000379145 /* blackpinkStaging */,
+				74FDFECB25F5217200379145 /* blackpinkDevelopment */,
 				13B07FAE1A68108700A75B9A /* blackpink */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* blackpinkTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				8D30F673CAEB1C254DAAF5FD /* Pods */,
+				74FDFEDD25F521B800379145 /* blackpink copy-Info.plist */,
+				74FD013C25F539ED00379145 /* blackpink copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -178,6 +239,8 @@
 				00E356EE1AD99517003FC87E /* blackpinkTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* blackpink-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* blackpink-tvOSTests.xctest */,
+				74FDFEDC25F521B700379145 /* blackpinkDevelopment.app */,
+				74FD013B25F539ED00379145 /* blackpinkStaging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,8 +256,13 @@
 				6CA598AA246C1EB5FD9AE8C4 /* Pods-blackpink-tvOS.release.xcconfig */,
 				57DBC141644F1121E26F9566 /* Pods-blackpink-tvOSTests.debug.xcconfig */,
 				6F2D8977C8F154C1004798F3 /* Pods-blackpink-tvOSTests.release.xcconfig */,
+				FF2E056D682E0905F568C099 /* Pods-App-blackpink.debug.xcconfig */,
+				E5863B1526252A5889F4BDF5 /* Pods-App-blackpink.release.xcconfig */,
+				5395C98137AA7804AE4D4697 /* Pods-App-blackpink-blackpinkTests.debug.xcconfig */,
+				DD7355441579A6F414A01B07 /* Pods-App-blackpink-blackpinkTests.release.xcconfig */,
+				AF4FF05A2E726B2636369FD9 /* Pods-App-blackpinkDevelopment.debug.xcconfig */,
+				19F11DFC550BF4264171B2CA /* Pods-App-blackpinkDevelopment.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -281,6 +349,48 @@
 			productReference = 2D02E4901E0B4A5D006451C7 /* blackpink-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		74FD012A25F539ED00379145 /* blackpinkStaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74FD013825F539ED00379145 /* Build configuration list for PBXNativeTarget "blackpinkStaging" */;
+			buildPhases = (
+				74FD012B25F539ED00379145 /* [CP] Check Pods Manifest.lock */,
+				74FD012C25F539ED00379145 /* Start Packager */,
+				74FD012D25F539ED00379145 /* Sources */,
+				74FD013025F539ED00379145 /* Frameworks */,
+				74FD013225F539ED00379145 /* Resources */,
+				74FD013625F539ED00379145 /* Bundle React Native code and images */,
+				74FD013725F539ED00379145 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blackpinkStaging;
+			productName = blackpink;
+			productReference = 74FD013B25F539ED00379145 /* blackpinkStaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74FDFECC25F521B700379145 /* blackpinkDevelopment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74FDFED925F521B700379145 /* Build configuration list for PBXNativeTarget "blackpinkDevelopment" */;
+			buildPhases = (
+				74FDFECD25F521B700379145 /* [CP] Check Pods Manifest.lock */,
+				74FDFECE25F521B700379145 /* Start Packager */,
+				74FDFECF25F521B700379145 /* Sources */,
+				74FDFED225F521B700379145 /* Frameworks */,
+				74FDFED425F521B700379145 /* Resources */,
+				74FDFED725F521B700379145 /* Bundle React Native code and images */,
+				74FDFED825F521B700379145 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blackpinkDevelopment;
+			productName = blackpink;
+			productReference = 74FDFEDC25F521B700379145 /* blackpinkDevelopment.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -324,6 +434,8 @@
 				00E356ED1AD99517003FC87E /* blackpinkTests */,
 				2D02E47A1E0B4A5D006451C7 /* blackpink-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* blackpink-tvOSTests */,
+				74FDFECC25F521B700379145 /* blackpinkDevelopment */,
+				74FD012A25F539ED00379145 /* blackpinkStaging */,
 			);
 		};
 /* End PBXProject section */
@@ -342,6 +454,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				74FD012425F539DE00379145 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +470,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74FD013225F539ED00379145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FD013325F539ED00379145 /* LaunchScreen.storyboard in Resources */,
+				74FD013425F539ED00379145 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74FDFED425F521B700379145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FDFED525F521B700379145 /* LaunchScreen.storyboard in Resources */,
+				74FDFED625F521B700379145 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +523,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-blackpink-blackpinkTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-blackpink-blackpinkTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +550,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-blackpink-blackpinkTests/Pods-blackpink-blackpinkTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-App-blackpink-blackpinkTests/Pods-App-blackpink-blackpinkTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -428,7 +559,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-blackpink-blackpinkTests/Pods-blackpink-blackpinkTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-blackpink-blackpinkTests/Pods-App-blackpink-blackpinkTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6106FA90657986D7138A756E /* [CP] Check Pods Manifest.lock */ = {
@@ -446,11 +577,157 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-blackpink-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-blackpink-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74FD012B25F539ED00379145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App-blackpink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74FD012C25F539ED00379145 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74FD013625F539ED00379145 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		74FD013725F539ED00379145 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-blackpink/Pods-App-blackpink-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-blackpink/Pods-App-blackpink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74FDFECD25F521B700379145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App-blackpinkDevelopment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74FDFECE25F521B700379145 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74FDFED725F521B700379145 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		74FDFED825F521B700379145 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App-blackpinkDevelopment/Pods-App-blackpinkDevelopment-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-blackpinkDevelopment/Pods-App-blackpinkDevelopment-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8C055288411071716D68DF55 /* [CP] Check Pods Manifest.lock */ = {
@@ -481,7 +758,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-blackpink/Pods-blackpink-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-App-blackpink/Pods-App-blackpink-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -490,7 +767,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-blackpink/Pods-blackpink-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-blackpink/Pods-App-blackpink-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F0B42523E2FF9A08E5D65274 /* [CP] Check Pods Manifest.lock */ = {
@@ -590,6 +867,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74FD012D25F539ED00379145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FD012E25F539ED00379145 /* AppDelegate.m in Sources */,
+				74FD012F25F539ED00379145 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74FDFECF25F521B700379145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FDFED025F521B700379145 /* AppDelegate.m in Sources */,
+				74FDFED125F521B700379145 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -608,7 +903,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B64C7CA8F92634A21ADF3069 /* Pods-blackpink-blackpinkTests.debug.xcconfig */;
+			baseConfigurationReference = 5395C98137AA7804AE4D4697 /* Pods-App-blackpink-blackpinkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +926,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 770E66F4FFEDC67E4C6089EA /* Pods-blackpink-blackpinkTests.release.xcconfig */;
+			baseConfigurationReference = DD7355441579A6F414A01B07 /* Pods-App-blackpink-blackpinkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,12 +946,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7241C0A042951104E0EB3E10 /* Pods-blackpink.debug.xcconfig */;
+			baseConfigurationReference = FF2E056D682E0905F568C099 /* Pods-App-blackpink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 4;
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "\"arm64\"";
 				INFOPLIST_FILE = blackpink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -664,7 +960,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackpink;
 				PRODUCT_NAME = blackpink;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -674,19 +970,21 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0451305E41EBAF67DA0ED87 /* Pods-blackpink.release.xcconfig */;
+			baseConfigurationReference = E5863B1526252A5889F4BDF5 /* Pods-App-blackpink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 4;
+				EXCLUDED_ARCHS = "\"arm64\"";
 				INFOPLIST_FILE = blackpink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackpink;
 				PRODUCT_NAME = blackpink;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -803,6 +1101,97 @@
 			};
 			name = Release;
 		};
+		74FD013925F539ED00379145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2E056D682E0905F568C099 /* Pods-App-blackpink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "\"arm64\"";
+				INFOPLIST_FILE = blackpinkStaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackpink.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		74FD013A25F539ED00379145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5863B1526252A5889F4BDF5 /* Pods-App-blackpink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				EXCLUDED_ARCHS = "\"arm64\"";
+				INFOPLIST_FILE = blackpinkStaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackpink.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		74FDFEDA25F521B700379145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4FF05A2E726B2636369FD9 /* Pods-App-blackpinkDevelopment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = blackpinkDevelopment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackpink.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		74FDFEDB25F521B700379145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F11DFC550BF4264171B2CA /* Pods-App-blackpinkDevelopment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				INFOPLIST_FILE = blackpinkDevelopment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackpink.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -835,6 +1224,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -895,6 +1285,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -951,6 +1342,24 @@
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
 				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74FD013825F539ED00379145 /* Build configuration list for PBXNativeTarget "blackpinkStaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FD013925F539ED00379145 /* Debug */,
+				74FD013A25F539ED00379145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74FDFED925F521B700379145 /* Build configuration list for PBXNativeTarget "blackpinkDevelopment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FDFEDA25F521B700379145 /* Debug */,
+				74FDFEDB25F521B700379145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
